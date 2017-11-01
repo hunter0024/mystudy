@@ -19,8 +19,6 @@ public class UserController {
 		
 		System.out.println("UserId : " + user);
 		
-		
-		
 		users.add(user);
 		
 		model.addAttribute("UserId", user.getUserId());
